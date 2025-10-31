@@ -1,0 +1,25 @@
+Text,Sentiment,labels
+Nothing to complain about but nothing special either.,Neutral,1
+I love this product!,Positive,2
+The hotel stay was absolutely amazing! Luxury at its finest.,Positive,2
+I can't stop listening to this song. It's incredible!,Positive,2
+The quality of this product is subpar.,Negative,0
+The website loading speed is frustratingly slow. Needs improvement.,Negative,0
+The product I purchased broke within a week. Poor quality.,Negative,0
+I had a terrible experience with their delivery service. Late and unprofessional.,Negative,0
+Features are sufficient for basic needs.,Neutral,1
+I had an incredible experience at the theme park. So much fun!,Positive,2
+The customer service at this store is outstanding. They truly care about their customers.,Positive,2
+I loved the movie! It was fantastic!,Positive,2
+The customer service at this hotel was terrible. Avoid at all costs.,Negative,0
+The website layout is cluttered and confusing. Difficult to find information.,Negative,0
+I can't get enough of this band. Their music is incredible!,Positive,2
+The roller coaster at this theme park is a thrilling experience. A must-try!,Positive,2
+The food at this cafe exceeded my expectations. Absolutely delicious!,Positive,2
+"Functionality is fine, nothing extraordinary.",Neutral,1
+The product I ordered arrived damaged. Very disappointed with the packaging.,Negative,0
+The product arrived damaged. Very disappointed.,Negative,0
+Average performance no issues so far.,Neutral,1
+I'm addicted to this game. It's so much fun!,Positive,2
+The product I received was damaged. Unacceptable.,Negative,0
+I'm captivated by this band's unique sound. They're a breath of fresh air!,Positive,2
