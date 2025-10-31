@@ -2,9 +2,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
+# ✅ Correct relative path
 df = pd.read_csv('./data/sentiment-analysis.csv')
 print(df.columns.tolist())
-
 # Keep only necessary columns
 df = df[['Text', 'Sentiment']]
 
@@ -22,10 +22,3 @@ train_df, test_df = train_test_split(df, test_size=0.2, random_state=42, stratif
 
 print(f"Train size: {len(train_df)}, Test size: {len(test_df)}")
 train_df.head()
-# Save the preprocessed splits
-train_df.to_csv('./data/train_preprocessed.csv', index=False)
-test_df.to_csv('./data/test_preprocessed.csv', index=False)
-
-print("Saved preprocessed files:")
-print("   → ./data/train_preprocessed.csv")
-print("   → ./data/test_preprocessed.csv")
